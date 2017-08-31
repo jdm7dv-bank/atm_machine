@@ -8,10 +8,17 @@
     <genClasses ecoreClass="aTM_Machine.ecore#//ATM">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aTM_Machine.ecore#//ATM/userAthenicated"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aTM_Machine.ecore#//ATM/CurrentAccountNumber"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aTM_Machine.ecore#//ATM/screen"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aTM_Machine.ecore#//ATM/keypad"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aTM_Machine.ecore#//ATM/cashdispenser"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aTM_Machine.ecore#//ATM/depositslot"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aTM_Machine.ecore#//ATM/bankdatabase"/>
       <genOperations ecoreOperation="aTM_Machine.ecore#//ATM/MenuOption"/>
     </genClasses>
     <genClasses ecoreClass="aTM_Machine.ecore#//Screen"/>
     <genClasses ecoreClass="aTM_Machine.ecore#//KeyPad"/>
     <genClasses ecoreClass="aTM_Machine.ecore#//CashDispenser"/>
+    <genClasses ecoreClass="aTM_Machine.ecore#//DepositSlot"/>
+    <genClasses ecoreClass="aTM_Machine.ecore#//BankDatabase"/>
   </genPackages>
 </genmodel:GenModel>

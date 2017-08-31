@@ -5,8 +5,15 @@
     <eOperations name="MenuOption" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EEnum"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="userAthenicated" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="CurrentAccountNumber" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="screen" eType="#//Screen"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="keypad" eType="#//KeyPad"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cashdispenser" eType="#//CashDispenser"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="depositslot" eType="#//DepositSlot"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bankdatabase" eType="#//BankDatabase"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Screen"/>
   <eClassifiers xsi:type="ecore:EClass" name="KeyPad"/>
   <eClassifiers xsi:type="ecore:EClass" name="CashDispenser"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DepositSlot"/>
+  <eClassifiers xsi:type="ecore:EClass" name="BankDatabase"/>
 </ecore:EPackage>
