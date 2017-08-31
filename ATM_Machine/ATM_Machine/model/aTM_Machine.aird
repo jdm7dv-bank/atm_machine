@@ -30,7 +30,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_KuPu0o3ZEeeUSb9PQ0xjsQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_KuKPQY3ZEeeUSb9PQ0xjsQ" fontName="Cantarell" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KuKPQo3ZEeeUSb9PQ0xjsQ" x="120" y="108" width="120" height="100"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KuKPQo3ZEeeUSb9PQ0xjsQ" x="108" y="132" width="120" height="100"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_w0b4Mo3YEeeUSb9PQ0xjsQ"/>
       </data>
