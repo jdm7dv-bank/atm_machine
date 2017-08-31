@@ -14,6 +14,11 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aTM_Machine.ecore#//ATM/depositslot"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aTM_Machine.ecore#//ATM/bankdatabase"/>
       <genOperations ecoreOperation="aTM_Machine.ecore#//ATM/MenuOption"/>
+      <genOperations ecoreOperation="aTM_Machine.ecore#//ATM/ATM"/>
+      <genOperations ecoreOperation="aTM_Machine.ecore#//ATM/Run"/>
+      <genOperations ecoreOperation="aTM_Machine.ecore#//ATM/AuthenicateUser"/>
+      <genOperations ecoreOperation="aTM_Machine.ecore#//ATM/PerformTransactions"/>
+      <genOperations ecoreOperation="aTM_Machine.ecore#//ATM/DisplayMainMenu"/>
     </genClasses>
     <genClasses ecoreClass="aTM_Machine.ecore#//Screen"/>
     <genClasses ecoreClass="aTM_Machine.ecore#//KeyPad"/>

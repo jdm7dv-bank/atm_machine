@@ -3,6 +3,11 @@
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="aTM_Machine" nsURI="http://www.example.org/aTM_Machine" nsPrefix="aTM_Machine">
   <eClassifiers xsi:type="ecore:EClass" name="ATM">
     <eOperations name="MenuOption" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EEnum"/>
+    <eOperations name="ATM"/>
+    <eOperations name="Run"/>
+    <eOperations name="AuthenicateUser"/>
+    <eOperations name="PerformTransactions"/>
+    <eOperations name="DisplayMainMenu"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="userAthenicated" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="CurrentAccountNumber" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="screen" eType="#//Screen"/>
