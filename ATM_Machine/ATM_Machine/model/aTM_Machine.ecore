@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="aTM_Machine" nsURI="http://www.example.org/aTM_Machine" nsPrefix="aTM_Machine">
-  <eClassifiers xsi:type="ecore:EClass" name="NewEClass1"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ATM">
+    <eOperations name="MenuOption" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EEnum"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="userAthenicated" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="CurrentAccountNumber" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Screen"/>
+  <eClassifiers xsi:type="ecore:EClass" name="KeyPad"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CashDispenser"/>
 </ecore:EPackage>
